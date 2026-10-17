@@ -1,0 +1,18 @@
+# Model artifacts & outputs (too large for git)
+checkpoint-*/
+final_adapter_*/
+temp_*/
+*.safetensors
+*.bin
+*.csv
+!assets/*.csv
+
+# Secrets
+.env
+*token*
+
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+.DS_Store

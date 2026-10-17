@@ -1,0 +1,12 @@
+# Run on Google Colab (A100). Versions reflect the original runs.
+torch>=2.3
+transformers>=4.45,<5        # evaluation notebook pins 4.45.2
+peft>=0.12.0
+trl==0.12.0                  # SFTTrainer + DataCollatorForCompletionOnlyLM
+bitsandbytes>=0.43.1
+accelerate>=0.34.0
+datasets
+huggingface_hub
+pandas
+matplotlib
+tqdm
